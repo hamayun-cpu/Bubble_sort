@@ -4,7 +4,9 @@ def bubble_sort(arr)
   while i < size - 1
     j = 0
     while j < ((size - 1) - i)
-      arr[j], arr[j + 1] = arr[j + 1], arr[j] if arr[j] > arr[j + 1]
+
+      arr[j], arr[j + 1] = arr [j + 1], arr[j] if arr[j] > arr[j + 1]
+
       j += 1
     end
     i += 1
