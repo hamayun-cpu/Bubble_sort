@@ -22,7 +22,7 @@ def bubble_sort_by(arr)
     while j < size - 1
       ans = yield arr[j], arr[j + 1]
       if ans.positive?
-        arr[j],arr[j+1]=arr[j+1],arr[j]
+        arr[j], arr[j + 1] = arr[j + 1], arr[j]
       end
       j += 1
     end
